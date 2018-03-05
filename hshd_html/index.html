@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta name="author" content="邵思杰"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="服装, 搭配, 风格, 颜色, 购物,设计,语音识别,年轻人" />
+	<link rel="stylesheet" href="./css/bootstrap.css"/>
+	<link rel="stylesheet" href="./css/index.css"/>
+	<link href="./img/favicon.ico" rel="SHORTCUT ICON" type="image/x-icon"/>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+		<!-- 防止滚动条记忆 -->
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<title>HSHD-首页</title>
+</head>
+<body>
+	<!-- 第一层 -->
+	<div class="container" id = "h_header"/>	
+	<!-- 第二层 -->
+	<div class="container" id = "h_flash">
+		<div class="ip-slideshow-wrapper">
+			<nav>
+				<span class="ip-nav-left"></span>
+				<span class="ip-nav-right"></span>
+			</nav>
+			<div class="ip-slideshow"></div>
+		</div>
+	</div>
+	<!-- 第三层：banner -->
+	<div class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="header-w3lsrow">  
+						<div class="bo">
+							<div class="ip-slideshow-wrapper">
+								<nav>
+									<span class="ip-nav-left"></span>
+									<span class="ip-nav-right"></span>
+								</nav>
+								<div class="ip-slideshow"></div>
+							</div>
+						</div>
+						<div class="logo">
+							<h1><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="慧声惠搭">Hs.Hd</a></h1>
+						</div>  
+						<div class="header-right">   
+							<ul>
+								<li><a href="login.html">Login</a></li>
+								<li><a href="register.html">Register</a></li>  
+							</ul>
+							<div class="clearfix"> </div>  
+						</div>
+						<div class="menu"> 
+							<div class="toggle"></div> 
+							<ul class="w3nav">				
+								<li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">开启新姿势<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><strong>按住图标,试说上面的链接字</strong></li>
+										<li><button class="btn voice">
+										<img src="img/s.png" alt="voice"/>
+								</button></li>     
+									</ul>
+								</li> 
+								<li><a href="login.html">登陆</a></li> 
+								<li><a href="register.html">注册</a></li>
+								<li><a href="match.html">搭配</a></li>
+								<li><a href="home.html">主页</a></li>
+								<li><a href="contact.html">联系我们</a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div>  
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- //header --> 
+			<!-- banner-text --> 
+			<div class="banner-w3lstext">
+				<div class="container">
+					<h6>Smart Clothings</h6>
+					<h2>collocation</h2>
+				</div>  
+			</div>  
+			<!-- //banner-text --> 
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- menu js -->
+	<script>
+		$('.toggle').on('click', function() {
+			$('.menu').toggleClass('open');  
+			$('.w3nav').toggleClass('show-w3nav');  
+			$('.w3nav a').toggleClass('show-w3nav-link');  
+			$('.toggle').toggleClass('close');  
+		});
+	</script>
+	<script type="text/javascript" src="js/bo.js"></script>
+</body>
+</html>

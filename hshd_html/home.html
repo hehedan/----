@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="邵思杰"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="服装, 搭配, 风格, 颜色, 购物,设计,语音识别,年轻人" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="./img/favicon.ico" rel="SHORTCUT icon" type="image/x-icon"/>
+	<link rel="stylesheet" href="css/home.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- 防止滚动条记忆 -->
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<title>HSHD-主页</title>
+</head>
+<body>
+	<!-- header -->
+	<div id = "header">
+		<!-- 联系信息 -->
+		<div class="hup">	
+			<ul>
+				<li class="li1"><a href="#"><i class="glyphicon glyphicon-sunglasses" aria-hidden="true"></i>&nbsp;登陆</a></li>
+				<li><a href="#"><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>&nbsp;注册</a></li>
+				<li><a href="#"><i class="glyphicon glyphicon-user" aria-hidden="true"></i>&nbsp;电话:1515123232</a></li>
+				<li><a href="#"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>&nbsp;邮件:233@qq.com</a></li>
+			</ul>
+		</div>
+		<!-- logo -->
+		<div class="hcenter">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="hcenter_search">
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input class="form-control" placeholder="Search" type="text">
+							</div>
+							<button type="submit" class="btn btn-default">搜索&nbsp;<i class = "glyphicon glyphicon-search" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<img src="img/logo.png" class="img-responsive" alt="Responsive image">
+				</div>
+				<div class="col-lg-3">
+					<figure>
+						<img src="img/t1.png" alt="头像" class="touxiang"/>
+						<figcaption>
+							<a href="###">
+								<img src="img/car.png"> <span class="badge">4</span>
+							</a>
+							<div class="btn-group" style="opacity: 0.76;">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none;">
+									欢迎,shaoxijie <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<a class="btn btn-default" type="button">登出</a>
+								</ul>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<!-- 导航 -->
+		<div class="hdown">
+			<div id="menu-wrapper">
+				<div id="menu" class="container">
+					<ul>
+						<li class="current_page_item"><a href="home.html">主页</a></li>
+						<li><a href="match.html">搭配</a></li>
+						<li><a href="woman.html">女装</a></li>
+						<li><a href="man.html">男装</a></li>
+						<li><a href="contact.html">联系我们</a></li>
+						<li><a href="#">点击说话</a></li>
+						<li><a href="#">分享</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- center -->
+	<div id="center">
+		<!-- 轮播器 -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item item3">
+					<div class="container">
+						<div class="carousel-caption">
+							<h3>颜色, 可以 <span>这样玩</span></h3>
+							<p>自我 随性 搭配</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg scroll" href="match.html" role="button">Read more »</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item active">
+					<div class="container">
+						<div class="carousel-caption">
+							<h3>潮流, 就在 <span>这儿</span></h3>
+							<p>最新 时尚 个性</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg scroll" href="match.html" role="button">Read more »</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item item2">
+					<div class="container">
+						<div class="carousel-caption">
+							<h3>玩转, 人工 <span>智能</span></h3>
+							<p>快速 新颖 把握</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg scroll" href="match.html" role="button">Read more »</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- 展示商品活动 -->
+		<div class="shows">
+			<h2>潮流款式</h2>
+			<div class="wthreehome-latest">
+				<div class="container">
+
+					<div class="wthreehome-latest-grids">
+						<div class="col-md-6 wthreehome-latest-grid wthreehome-latest-grid1">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<img src="img/h1.jpg" alt="Groovy Apparel">
+									<figcaption></figcaption>
+								</figure>
+							</div>
+							<h4>DENIM TOPS</h4>
+							<h5>Lorem Ipsum Dolor Site Amet</h5>
+							<h6><a href="man.html">Shop Now</a></h6>
+						</div>
+						<div class="col-md-6 wthreehome-latest-grid wthreehome-latest-grid2">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<img src="img/h2.jpg" alt="Groovy Apparel">
+									<figcaption></figcaption>
+								</figure>
+							</div>
+							<h4>LEATHER JACKETS</h4>
+							<h5>蓝色单配，中气很足</h5>
+							<h6><a href="woman.html">Shop Now</a></h6>
+						</div>
+						<div class="col-md-6 wthreehome-latest-grid wthreehome-latest-grid3">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<img src="img/h3.jpg" alt="Groovy Apparel">
+									<figcaption></figcaption>
+								</figure>
+							</div>
+							<h4>WATCHES</h4>
+							<h5>Lorem Ipsum Dolor Site Amet</h5>
+							<h6><a href="woman.html">Shop Now</a></h6>
+						</div>
+						<div class="col-md-6 wthreehome-latest-grid wthreehome-latest-grid4">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<img src="img/h4.jpg" alt="Groovy Apparel">
+									<figcaption></figcaption>
+								</figure>
+							</div>
+							<h4>BEACH WEAR</h4>
+							<h5>Lorem Ipsum Dolor Site Amet</h5>
+							<h6><a href="man.html">Shop Now</a></h6>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!-- //展示商品活动 -->
+
+		<!-- 展示搭配展示 -->
+		<div class="matchshow">
+			<h2>搭配展示</h2>
+			<section id="portfolio">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<hr class="section">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+							<div class="caption">
+								<div class="caption-content">
+									<h3>The Shape of Design</h3>
+									<h4>Branding/Graphic</h4>
+								</div>
+							</div>
+							<img src="img/h4.jpg" class="img-responsive" alt=""> </a> </div>
+							<div class="col-sm-4 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+								<div class="caption">
+									<div class="caption-content">
+										<h3>czarna kawka</h3>
+										<h4>Branding</h4>
+									</div>
+								</div>
+								<img src="img/h4.jpg" class="img-responsive" alt=""> </a> </div>
+								<div class="col-sm-4 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+									<div class="caption">
+										<div class="caption-content">
+											<h3>czarna kawka</h3>
+											<h4>Branding</h4>
+										</div>
+									</div>
+									<img src="img/h4.jpg" class="img-responsive" alt=""> </a> </div>
+									<div class="col-sm-4 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+										<div class="caption">
+											<div class="caption-content">
+												<h3>czarna kawka</h3>
+												<h4>Branding</h4>
+											</div>
+										</div>
+										<img src="img/h4.jpg" class="img-responsive" alt=""> </a> </div>
+										<div class="col-sm-4 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+											<div class="caption">
+												<div class="caption-content">
+													<h3>czarna kawka</h3>
+													<h4>Branding</h4>
+												</div>
+											</div>
+											<img src="img/h4.jpg" class="img-responsive" alt=""> </a> </div>
+											<div class="col-sm-4 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+												<div class="caption">
+													<div class="caption-content">
+														<h3>czarna kawka</h3>
+														<h4>Branding</h4>
+													</div>
+												</div>
+												<img src="img/h4.jpg" class="img-responsive" alt=""> </a> </div>
+											</div>
+										</div>
+									</section>	
+								</div>
+								<!-- //展示搭配展示 -->
+
+								<!-- 展示搭配建议 -->
+								<div class="matchs">
+									<h2>搭配建议</h2>
+									<div class="pricing" id="pricing">
+										<div class="container">
+											<div class="agile_wthree_inner_grids">
+												<div class="pring_agile_its w3-agile">
+													<div class="col-md-4 pricing_inner_w3ls">
+														<div class="pricing-top">
+															<h3>Normal</h3>
+															<p>$<span>35</span>/Per alter</p>
+														</div>
+														<div class="pricing-bottom">
+															<div class="pricing-bottom-bottom">
+																<p><span>Pants - shorten/</span>lengthen</p>
+																<p><span>Taper </span>pants</p>
+																<p><span>Suit jackets - </span>shorten sleeves</p>
+																<p><span>Blouse</span>shorten sleeves</p>
+																<p class="text"><span>Blouses</span> narrow tank top</p>
+															</div>
+
+															<div class="sign w3-agile text-center">
+																<a class="popup-with-zoom-anim" href="#small-dialog">BOOK NOW</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 pricing_inner_w3ls">
+														<div class="pricing-top orange">
+															<h3>Professional</h3>
+															<p>$<span>175</span> /Per alter</p>
+														</div>
+														<div class="pricing-bottom">
+															<div class="pricing-bottom-bottom">
+																<p><span>Pants - shorten/</span>lengthen</p>
+																<p><span>Taper </span>pants</p>
+																<p><span>Suit jackets - </span>shorten sleeves</p>
+																<p><span>Blouse</span>shorten sleeves</p>
+																<p class="text"><span>Blouses</span> narrow tank top</p>
+															</div>
+
+															<div class="sign w3-agile text-center">
+																<a class="popup-with-zoom-anim orange" href="#small-dialog">BOOK NOW</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 pricing_inner_w3ls">
+														<div class="pricing-top purple">
+															<h3>Special</h3>
+															<p>$<span>190</span>/ Per alter</p>
+														</div>
+														<div class="pricing-bottom">
+															<div class="pricing-bottom-bottom">
+																<p><span>Pants - shorten/</span>lengthen</p>
+																<p><span>Taper </span>pants</p>
+																<p><span>Suit jackets - </span>shorten sleeves</p>
+																<p><span>Blouse</span>shorten sleeves</p>
+																<p class="text"><span>Blouses</span> narrow tank top</p>
+															</div>
+
+															<div class="sign w3-agile text-center">
+																<a class="popup-with-zoom-anim purple" href="#small-dialog">BOOK NOW</a>
+															</div>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Popup-Box -->
+									<div id="popup">
+
+										<div id="small-dialog" class="mfp-hide agileinfo">
+											<div class="pop_up">
+												<div class="payment-online-form-left w3-agileits">
+													<form action="#" method="post">
+														<h4>Personal Details</h4>
+														<ul>
+															<li><input type="text" name="First Name" placeholder="First Name" required=""></li>
+															<li><input type="text" name="Last Name" placeholder="Last Name" required=""></li>
+														</ul>
+														<ul>
+															<li><input type="email" class="email" name="Email" placeholder="Email" required=""></li>
+															<li><input type="text" name="Number" placeholder="Mobile Number" required=""></li>
+														</ul>
+														<textarea name="Message" placeholder="Address..." required=""></textarea>
+														<div class="clearfix"></div>
+
+														<ul class="payment-sendbtns">
+															<li><input type="reset" value="Reset"></li>
+															<li><input type="submit" name="Send" value="Send"></li>
+														</ul>
+														<div class="clearfix"></div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+									<button title="Close (Esc)" type="button" class="mfp-close w3-agileits">×</button>
+									<!-- //Popup-Box -->
+								</div>
+								<!-- //展示搭配建议 -->
+							</div>
+							<!-- //center -->
+							<!-- footer -->
+							<div id="footer">
+								<footer>
+									<div class="footer-top_agile_w3l">
+										<div class="container">
+											<div class="footer-grids">
+												<div class="col-md-5 footer-grid_wthree_info">
+													<h3>有关 介绍</h3>
+													<p>此网站为智能语音服装搭配网站，做为毕业设计用途,所有功能不涉及商业行为。</p>
+													<p>提供语音识别和合成功能，旨在更好的搭配衣服,浏览网页。如有设计缺陷,还请见谅!</p>
+													<!-- 图标 -->
+													<ul class="footer_list_icons">
+														<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+														<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+														<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+														<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+														<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+														<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+												<div class="col-md-2 footer-grid_wthree_info">
+													<h3>联系</h3>
+													<ul class="footer-list">
+														<li> <a href="#welcome" class="scroll">关于</a> </li>
+														<li> <a href="#pricing" class="scroll">定价</a> </li>
+														<li> <a href="#team" class="scroll">我的技术支持</a> </li>
+														<li> <a href="#clients" class="scroll">活动</a> </li>
+														<li> <a href="#services" class="scroll">服务</a> </li>
+														<li> <a href="#contact" class="scroll">开发中。。</a> </li>
+													</ul>
+												</div>
+												<div class="col-md-5 footer-grid_wthree_info">
+													<h3>订阅</h3>
+													<form action="#" method="post">
+														<input type="text" name="text" placeholder="姓名" required="">
+														<input type="email" name="Email" placeholder="邮件" required="">
+														<input type="submit" value="发送给我吧">
+													</form>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="wthree_copy_right">
+												<p>Copyright 2018 ShowProject. All rights reserved | Design by <a href="###/">shaoXman</a></p>
+											</div>
+										</div>
+									</div>
+								</footer>
+							</div>
+							<!-- //footer -->
+						</body>
+						</html>
